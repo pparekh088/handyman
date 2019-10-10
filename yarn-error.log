@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/parekhp/Documents/personal-projects/material-app/node_modules/.bin:/Users/parekhp/Documents/personal-projects/node_modules/.bin:/Users/parekhp/Documents/node_modules/.bin:/Users/parekhp/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/gettext/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND cbscclrv0103d.ca.cibcwm.com cbscclrv0103d.ca.cibcwm.com:8081
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+npm manifest: 
+  {
+    "name": "material-app",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.11.0",
+      "@vue/cli-plugin-eslint": "^3.11.0",
+      "@vue/cli-plugin-unit-mocha": "^3.11.0",
+      "@vue/cli-plugin-e2e-cypress": "^3.11.0",
+      "@vue/cli-service": "^3.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
